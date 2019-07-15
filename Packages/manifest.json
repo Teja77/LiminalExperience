@@ -1,11 +1,16 @@
 {
   "dependencies": {
+    "com.liminal.sdk": "https://github.com/LiminalVR/Liminal-SDK-Unity-Package.git",
     "com.unity.ads": "2.0.8",
     "com.unity.analytics": "3.2.2",
     "com.unity.collab-proxy": "1.2.15",
     "com.unity.package-manager-ui": "2.0.3",
     "com.unity.purchasing": "2.0.3",
+    "com.unity.render-pipelines.lightweight": "4.10.0-preview",
+    "com.unity.shadergraph": "4.10.0-preview",
     "com.unity.textmeshpro": "1.3.0",
+    "com.unity.xr.oculus.android": "1.36.0",
+    "com.unity.xr.oculus.standalone": "1.29.1",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.assetbundle": "1.0.0",
@@ -36,5 +41,11 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.liminal.sdk": {
+      "hash": "ab28b5f2c5cae2dbc4c47bdd981a54218c773def",
+      "revision": "HEAD"
+    }
   }
 }

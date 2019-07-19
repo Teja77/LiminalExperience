@@ -3,7 +3,7 @@ using System.Collections;
 
 public class freemovement : MonoBehaviour
 {
-
+    public GameObject gameobject;
     /*
     Writen by Windexglow 11-13-10.  Use it, edit it, steal it I don't care.  
     Converted to C# 27-02-13 - no credit wanted.
@@ -82,6 +82,12 @@ public class freemovement : MonoBehaviour
         {
             p_Velocity += new Vector3(1, 0, 0);
         }
+        if (Input.GetKey(KeyCode.V))
+        {
+          gameobject.SetActive(true);
+        }
+
+
         return p_Velocity;
     }
 }

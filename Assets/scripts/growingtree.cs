@@ -17,7 +17,7 @@ public class growingtree : MonoBehaviour
     public float speedRotationY = 0f;
     public float speedRotationZ = 0f;
     public Mesh mesh1;
-    private MeshFilter MFilter;
+    public MeshFilter MFilter;
     
     Vector4 changecolor;
     Vector3 tempScale;
@@ -25,7 +25,7 @@ public class growingtree : MonoBehaviour
 
     private void Start()
     {
-        MFilter = GetComponent<MeshFilter>();
+        //MFilter = GetComponent<MeshFilter>();
     }
     // Update is called once per frame
     void Update()

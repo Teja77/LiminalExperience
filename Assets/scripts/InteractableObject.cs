@@ -10,7 +10,7 @@ public class InteractableObject : MonoBehaviour,IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         TriggeredEvent?.Invoke();
-        Debug.Log("clicked");
+
          }
 
     // Start is called before the first frame update

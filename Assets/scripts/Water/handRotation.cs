@@ -10,9 +10,13 @@ public class handRotation : MonoBehaviour
    
     
     public GameObject ObjectToRotate;
-
+    public float MaxRotation = 90f;
+    public float MinRotation = 0f;
+    public float NormalisedRot;
+    Quaternion tempRotate;
     void Update()
     {
+      
         var handRotation = Hand.Anchor.rotation;
 
         /*
@@ -20,5 +24,12 @@ public class handRotation : MonoBehaviour
         primaryHand.Anchor.Rotation
         */
         ObjectToRotate.transform.rotation = handRotation;
+
+        var rot = ObjectToRotate.transform.localEulerAngles.z;
+
+        rot = Mathf.Clamp(rot, 0, MaxRotation);
+
+        NormalisedRot = rot / MaxRotation;
+
     }
 }

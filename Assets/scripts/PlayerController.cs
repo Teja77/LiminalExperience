@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
         if (Device.GetButtonDown(VRButton.One))
          {
             MoveRaycast();
+            
         }
     }
 
@@ -36,12 +37,14 @@ public class PlayerController : MonoBehaviour
 
         if (Physics.Raycast(pointer.Transform.position, pointer.Transform.forward, out RaycastHit hit, 100f, LayerToHit))
         {
+           
             if (_teleportRoutine != null)
                 return;
 
             _teleportRoutine = StartCoroutine(TeleportCoro(hit.point));
         }
     }
+    
 
 
     private IEnumerator TeleportCoro(Vector3 teleportPoint)

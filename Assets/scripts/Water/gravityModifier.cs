@@ -8,7 +8,6 @@ using Liminal.SDK.VR.Input;
 public class gravityModifier : MonoBehaviour
 {
     private ParticleSystem ps;
-    public handRotation hand;
     public float SimValue = 0.0f;
     public ParticleSystem.MainModule main;
 
@@ -34,7 +33,6 @@ public class gravityModifier : MonoBehaviour
         if (!_device.GetButton(VRButton.One))
             return;
 
-        SimValue = hand.NormalisedRot;
         main.simulationSpeed = SimValue;
     }
 

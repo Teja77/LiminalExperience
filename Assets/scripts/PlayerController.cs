@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         Device = VRDevice.Device.PrimaryInputDevice;
+
     }
 
     // Update is called once per frame
@@ -27,6 +28,7 @@ public class PlayerController : MonoBehaviour
         if (Device.GetButtonDown(VRButton.One))
          {
             MoveRaycast();
+           
             
         }
     }

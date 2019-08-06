@@ -11,6 +11,7 @@ TagManager:
   - Floor
   - interact
   - new
+  - light
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - 
   - PostProcessing
   - 
-  - 
+  - tree
   - 
   - 
   - 

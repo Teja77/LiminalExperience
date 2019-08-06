@@ -5,7 +5,7 @@ using UnityEngine;
 
 
 
-public class Snow : MonoBehaviour
+public class Snow2 : MonoBehaviour
 {
     public Material Materialtoadd;
     public float minValue;
@@ -22,12 +22,14 @@ public class Snow : MonoBehaviour
 
     void OnParticleCollision(GameObject other)
     {
-        //add any other code here
-        _snowValue += SnowAddAmount;
-        _snowValue = Mathf.Clamp(_snowValue, minValue, maxValue);
-        var normalisedVal = _snowValue / maxValue;
-        normalisedVal *= multiplier;
-        Materialtoadd.SetFloat("_SnowAmount", normalisedVal);
-        Debug.Log("My Player’s been hit by particles.");
+        if (other.layer == 8)
+        {
+            //add any other code here
+            _snowValue += SnowAddAmount;
+            _snowValue = Mathf.Clamp(_snowValue, minValue, maxValue);
+            var normalisedVal = _snowValue / maxValue;
+            normalisedVal *= multiplier;
+            Materialtoadd.SetFloat("_SnowAmount", normalisedVal);
+        }
     }
 }

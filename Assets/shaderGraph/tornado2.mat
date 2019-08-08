@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_tornado
+  m_Name: tornado2
   m_Shader: {fileID: -6465566751694194690, guid: 61975784757252f4ab1f3f2389915fdc,
     type: 3}
   m_ShaderKeywords: 
@@ -23,12 +23,12 @@ Material:
     m_Floats:
     - Vector1_240BBC10: 3.7
     - Vector1_2AEABEA3: 1
-    - Vector1_44224D78: 0.237
+    - Vector1_44224D78: 0.174
     - Vector1_96E40736: 20
     m_Colors:
-    - Color_3FB25CBB: {r: 3.9533494, g: 3.394499, b: 1.5937587, a: 1}
+    - Color_3FB25CBB: {r: 1.9587611, g: 1.9587611, b: 1.9587611, a: 1}
     - Color_F3FB5989: {r: 0.5849056, g: 0.2896938, b: 0.2896938, a: 0.9647059}
     - Vector2_1DE0497C: {r: 0, g: 1, b: 0, a: 0}
     - Vector2_3B339A7F: {r: 10, g: 10, b: 0, a: 0}
-    - Vector2_3F57C465: {r: 0, g: -1, b: 0, a: 0}
+    - Vector2_3F57C465: {r: 0, g: 0.1, b: 0, a: 0}
     - Vector2_5B155B9C: {r: 0, g: 0, b: 0, a: 0}

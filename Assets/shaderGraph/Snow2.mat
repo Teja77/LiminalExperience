@@ -43,7 +43,7 @@ Material:
     - Vector1_859280B2: 2.5
     - Vector1_D5319A04: 0
     - Vector1_EE62EB89: 0
-    - _SnowAmount: 1
+    - _SnowAmount: 0
     m_Colors:
     - Color_ED687636: {r: 0.9433962, g: 0.3471082, b: 0.03114989, a: 0}
     - Vector3_EA746E2B: {r: 0, g: 3.76, b: 0, a: 0}

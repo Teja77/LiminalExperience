@@ -7,29 +7,14 @@ using UnityEngine;
 
 public class Snow2 : MonoBehaviour
 {
-    public Material Materialtoadd;
-    public float minValue;
-    public float maxValue;
-    public float SnowAddAmount;
+    public Material Material;
+    public float SnowDelta;
     public float multiplier = 1f;
 
-    private float _snowValue;
-
-    private void Start()
+    private void OnParticleCollision(GameObject other)
     {
-        Materialtoadd.SetFloat("_SnowAmount", _snowValue / maxValue);
-    }
-
-    void OnParticleCollision(GameObject other)
-    {
-        if (other.layer == 8)
-        {
-            //add any other code here
-            _snowValue += SnowAddAmount;
-            _snowValue = Mathf.Clamp(_snowValue, minValue, maxValue);
-            var normalisedVal = _snowValue / maxValue;
-            normalisedVal *= multiplier;
-            Materialtoadd.SetFloat("_SnowAmount", normalisedVal);
-        }
+        var curSnowVal = Material.GetFloat("Vector1_D5319A04");
+        curSnowVal = Mathf.Clamp(curSnowVal + (SnowDelta* multiplier), 0f, 0.2f);
+        Material.SetFloat("Vector1_D5319A04", curSnowVal);
     }
 }

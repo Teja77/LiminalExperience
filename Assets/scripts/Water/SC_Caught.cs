@@ -2,7 +2,7 @@
 
 public class SC_Caught : MonoBehaviour
 {
-    private Tornado tornadoReference;
+    private SC_Tornado tornadoReference;
     private SpringJoint spring;
     [HideInInspector]
     public Rigidbody rigid;
@@ -37,7 +37,7 @@ public class SC_Caught : MonoBehaviour
     }
 
     //Call this when tornadoReference already exists
-    public void Init(Tornado tornadoRef, Rigidbody tornadoRigidbody, float springForce)
+    public void Init(SC_Tornado tornadoRef, Rigidbody tornadoRigidbody, float springForce)
     {
         //Make sure this is enabled (for reentrance)
         enabled = true;

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class Tornado : MonoBehaviour
+public class SC_Tornado : MonoBehaviour
 {
     [Tooltip("Distance after which the rotation physics starts")]
     public float maxDistance = 20;

@@ -15,7 +15,8 @@ public class Lightning : MonoBehaviour
         if(other.layer == 10)
         {
             //Destroy(other.gameObject);
-            other.gameObject.GetComponent<ParticleSystem>().Play();
+            GetComponent<AudioSource>().Play(); 
+
             
         }
     }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7752427928461592560}
   - component: {fileID: 7752427928461592562}
   - component: {fileID: 7752427928461592565}
+  - component: {fileID: 4091406339977840681}
   m_Layer: 0
   m_Name: SnowPS
   m_TagString: Untagged
@@ -4781,9 +4782,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51c832d4064ab114b80b4448d2dc478b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Materialtoadd: {fileID: 2100000, guid: ae4cac2404a0513438410cfbb6a02b56, type: 2}
-  minValue: 0
-  maxValue: 1
-  SnowAddamount: 0.1
+  Material: {fileID: 0}
+  SnowDelta: 0
   multiplier: 1
-  snowValue: 0
+--- !u!114 &4091406339977840681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7752427928461592574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e01356f83526634db70357d705c78ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

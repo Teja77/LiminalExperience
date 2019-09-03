@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Awe.unity
+    path: Assets/Scenes/Awe.unity
     guid: 566dff0e2f76bab44b08ee6af9047597
   - enabled: 0
     path: Assets/test.unity

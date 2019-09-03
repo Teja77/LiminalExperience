@@ -21,7 +21,7 @@ QualitySettings:
     skinWeights: 1
     textureQuality: 1
     anisotropicTextures: 0
-    antiAliasing: 0
+    antiAliasing: 4
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 0
@@ -42,6 +42,7 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     excludedTargetPlatforms:
     - Android
+    - Standalone
   - serializedVersion: 2
     name: Fast
     pixelLightCount: 0
@@ -57,7 +58,7 @@ QualitySettings:
     skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 0
-    antiAliasing: 0
+    antiAliasing: 4
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 0
@@ -78,6 +79,7 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     excludedTargetPlatforms:
     - Android
+    - Standalone
   - serializedVersion: 2
     name: Simple
     pixelLightCount: 1
@@ -93,7 +95,7 @@ QualitySettings:
     skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 1
-    antiAliasing: 0
+    antiAliasing: 4
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 0
@@ -114,6 +116,7 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     excludedTargetPlatforms:
     - Android
+    - Standalone
   - serializedVersion: 2
     name: Good
     pixelLightCount: 2
@@ -129,7 +132,7 @@ QualitySettings:
     skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 1
-    antiAliasing: 0
+    antiAliasing: 4
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
@@ -148,7 +151,9 @@ QualitySettings:
     asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Android
+    - Standalone
   - serializedVersion: 2
     name: Beautiful
     pixelLightCount: 3
@@ -164,7 +169,7 @@ QualitySettings:
     skinWeights: 4
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 0
+    antiAliasing: 4
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
@@ -183,8 +188,7 @@ QualitySettings:
     asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    excludedTargetPlatforms:
-    - Android
+    excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Fantastic
     pixelLightCount: 1
@@ -204,7 +208,7 @@ QualitySettings:
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
-    billboardsFaceCameraPosition: 0
+    billboardsFaceCameraPosition: 1
     vSyncCount: 0
     lodBias: 2
     maximumLODLevel: 0
@@ -219,8 +223,7 @@ QualitySettings:
     asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    excludedTargetPlatforms:
-    - Android
+    excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 5
     Standalone: 5

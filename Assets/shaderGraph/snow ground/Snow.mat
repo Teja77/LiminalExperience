@@ -20,12 +20,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_45C425B1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_4C93945B:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_4FBD6E24:
-        m_Texture: {fileID: 2800000, guid: 7f3df385222f5b1428f6a156037deb5e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 30ec70ef60a2bb54ea2df6f72c77bdc6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_5580922F:
@@ -41,7 +45,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_85DFB7A7:
-        m_Texture: {fileID: 2800000, guid: b7f0d647777514c4283cd68769e4bcdb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 609ede124adba7c4ba29a228e67ea50d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_9F03EBC2:
@@ -53,7 +57,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_C9374411:
-        m_Texture: {fileID: 2800000, guid: 30ec70ef60a2bb54ea2df6f72c77bdc6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7f3df385222f5b1428f6a156037deb5e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_D84F5A:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_E08B3B5E:
@@ -160,13 +168,13 @@ Material:
     - Vector1_16576C6A: 3.19
     - Vector1_2D34F05D: 3
     - Vector1_2E42AE60: 9.27
-    - Vector1_3E999075: 70
+    - Vector1_3E999075: 80
     - Vector1_466D35: 26.9
-    - Vector1_4F5FBD1F: 0.797
-    - Vector1_5298B51D: 120
+    - Vector1_4F5FBD1F: 0.849
+    - Vector1_5298B51D: 0
     - Vector1_8CD018A8: 0
     - Vector1_9F294570: 0
-    - Vector1_A87DE66: 0.989
+    - Vector1_A87DE66: 1
     - Vector1_BA2DC92C: 0.9
     - Vector1_D5319A04: 0
     - Vector1_DBD9B63E: 1
@@ -199,6 +207,7 @@ Material:
     - _Smoothness2: 0.5
     - _Smoothness3: 0.5
     - _SmoothnessTextureChannel: 0
+    - _SnowAmount: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
@@ -209,7 +218,7 @@ Material:
     - Color_16882D73: {r: 0.5377358, g: 0.53519934, b: 0.53519934, a: 1}
     - Color_CF10AED2: {r: 0.5019608, g: 0.49803913, b: 0.99607843, a: 1}
     - Vector2_8B00E576: {r: 0, g: 0, b: 0, a: 0}
-    - Vector2_9D408F56: {r: 4, g: 4, b: 0, a: 0}
+    - Vector2_9D408F56: {r: 1, g: 1, b: 0, a: 0}
     - Vector3_5CD4F8A1: {r: 0, g: 0, b: 0, a: 0}
     - Vector3_EA746E2B: {r: 0, g: 5.2, b: 0, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
